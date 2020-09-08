@@ -1,0 +1,30 @@
+// VSCode configuration is stored elsewhere, but these settings can easily be copied into the JSON editor
+
+{
+    "files.autoSave": "onFocusChange",
+    "editor.renderWhitespace": "all",
+    "files.enableTrash": false,
+    "debug.toolBarLocation": "docked",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.rulers": [
+        120
+    ],
+
+    // Things that require plugins to work
+    "trailing-spaces.deleteModifiedLinesOnly": true,
+    "trailing-spaces.trimOnSave": true,
+    "workbench.colorTheme": "Atom One Dark",
+}
+
+// Additionally, the following VS Code plugins are nice to have:
+- Atom One Dark Theme
+- Bookmarks
+- Color Highlight
+- ESLint
+- GitLens
+- Import Cost
+- IntelliJ IDEA Keybindings
+- Subword Navigation
+- Trailing Spaces
+- Version Lens
+
