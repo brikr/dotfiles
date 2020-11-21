@@ -16,6 +16,110 @@
     "workbench.colorTheme": "Atom One Dark",
 }
 
+// With Subword Navigation installed, these are the keybindings.json overrides:
+[
+    {
+        "key": "ctrl+left",
+        "command": "subwordNavigation.cursorSubwordLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "subwordNavigation.cursorSubwordLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "-subwordNavigation.cursorSubwordLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+left",
+        "command": "-subwordNavigation.cursorSubwordLeftSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+left",
+        "command": "-cursorWordLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "-cursorWordLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "-cursorWordEndRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "-cursorWordEndRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "subwordNavigation.cursorSubwordRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "-subwordNavigation.cursorSubwordRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "subwordNavigation.cursorSubwordRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "-subwordNavigation.cursorSubwordRightSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "subwordNavigation.deleteSubwordLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "-subwordNavigation.deleteSubwordLeft",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+delete",
+        "command": "subwordNavigation.deleteSubwordRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+delete",
+        "command": "-subwordNavigation.deleteSubwordRight",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "-deleteWordLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "-deleteWordLeft",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+delete",
+        "command": "-deleteWordRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+delete",
+        "command": "-deleteWordRight",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+]
+
 // Additionally, the following VS Code plugins are nice to have:
 - Atom One Dark Theme
 - Bookmarks
