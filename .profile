@@ -14,6 +14,9 @@ shopt -s histappend
 HISTSIZE=1000
 HISTFILESIZE=2000
 
+# Suppress zsh warning
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 # Pretty prompt
 BLUE="\[\e[36m\]"
 RED="\[\e[91m\]"
